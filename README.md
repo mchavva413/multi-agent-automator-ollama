@@ -49,41 +49,38 @@ The app features a clean **corporate-style dashboard** built with Streamlit.
 ```bash
 git clone https://github.com/YOUR_USERNAME/multi-agent-workflow-automator.git
 cd multi-agent-workflow-automator
-
----
-
 2️⃣ Create a Virtual Environment
+bash
+Copy code
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 # or
 venv\Scripts\activate      # Windows
-
 3️⃣ Install Dependencies
+bash
+Copy code
 pip install streamlit duckduckgo-search
-
 4️⃣ Pull the Model
-
 Make sure Ollama is installed:
 ➡️ https://ollama.com/download
 
 Then pull a model:
 
+bash
+Copy code
 ollama pull llama3
-
 5️⃣ Run the App
+bash
+Copy code
 streamlit run app.py
-
-
-Visit the local URL (usually http://localhost:8501
-) to open the dashboard.
+Visit the local URL (usually http://localhost:8501) to open the dashboard.
 
 🧠 Example Workflow
-
 Input topic:
 
+yaml
+Copy code
 AI in Education 2025
-
-
 Agents execute:
 
 🔍 Researcher → Finds insights about the topic
@@ -96,6 +93,8 @@ Output:
 A fully formatted, publication-ready article generated offline.
 
 💾 Project Structure
+bash
+Copy code
 multi-agent-workflow-automator/
 │
 ├── agents.py          # Agent logic (researcher, writer, reviewer)
@@ -103,9 +102,7 @@ multi-agent-workflow-automator/
 ├── app.py             # Streamlit dashboard
 ├── .gitignore         # Ignored files (venv, cache, etc.)
 └── README.md          # This file
-
 🌐 Future Enhancements
-
 ✅ Functional Settings tab (real-time model selection)
 
 🧠 Add vector-based memory for persistent context
@@ -117,14 +114,10 @@ multi-agent-workflow-automator/
 🗣️ Optional voice input and summary output
 
 👩‍💻 Author
-
 Chavva Akshit
 💼 AI Automation Developer & Research Enthusiast
-📧 [your.email@example.com
-]
+📧 [your.email@example.com]
 🌐 [LinkedIn / Portfolio link if you want to add later]
 
 🪪 License
-
 This project is released under the MIT License — feel free to fork, modify, and use it for educational or commercial purposes.
-
