@@ -50,6 +50,8 @@ The app features a clean **corporate-style dashboard** built with Streamlit.
 git clone https://github.com/YOUR_USERNAME/multi-agent-workflow-automator.git
 cd multi-agent-workflow-automator
 
+---
+
 2️⃣ Create a Virtual Environment
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
