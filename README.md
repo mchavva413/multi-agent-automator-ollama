@@ -115,9 +115,6 @@ multi-agent-workflow-automator/
 
 👩‍💻 Author
 Chavva Akshit
-💼 AI Automation Developer & Research Enthusiast
-📧 [your.email@example.com]
-🌐 [LinkedIn / Portfolio link if you want to add later]
-
+chavvaakshit9495@gmail.com
 🪪 License
 This project is released under the MIT License — feel free to fork, modify, and use it for educational or commercial purposes.
